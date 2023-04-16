@@ -1,0 +1,79 @@
+
+body{
+    background-color: #fff;
+}
+#product-details{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5rem;
+    /* height: 70vh; */
+}
+
+#product-details .pro-image{
+    width: 40%;
+    
+}
+#product-details .pro-image .img-group>*{
+    cursor: pointer;
+}
+.img-group{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 0.5rem;
+}
+.pdt-des{
+    width: 40%;
+}
+.pdt-des select{
+    background-color: white;
+    padding: 0.4rem 0.6rem;
+    outline: none;
+    border: 1px solid black;
+}
+.pdt-des div {
+    margin: 2rem 0;
+}
+.pdt-des div input{
+    width: 4rem;
+    padding: 0.3rem 0.2rem;
+}
+.pdt-des h2{
+    color: #088178;
+    margin: 1rem 0;
+}
+.pdt-des div button{
+    border: none;
+    padding: 0.4rem 0.6rem;
+    background-color: #088178;
+    color: white;
+    border-radius: 3px;
+    cursor: pointer;
+    margin-left: 1rem;
+    transition: 0.3s linear;
+}
+.pdt-des div button:hover{
+   opacity: 0.8;
+}
+.pdt-des p{
+    font-size: 14px;
+    width: 90%;
+}
+@media screen and (max-width: 500px) {
+    #product-details{
+        flex-direction: column;
+        gap: 2rem;
+        margin-top: 2rem;
+    }
+    #product-details .pro-image{
+        width: 80%;
+    }
+    #product-details .pdt-des{
+        width: 90%;
+    }
+    #product-details .pdt-des p{
+       line-height: 1.1rem;
+       font-size: 13px;
+    }
+}

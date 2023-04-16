@@ -1,0 +1,28 @@
+
+
+#hero-cart{
+    background-image: url('img/banner/b7.jpg');
+    height: 40vh;
+    text-align: center;
+    /* padding: 1.5rem 0; */
+    margin-bottom: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#hero-cart h2{
+    color: white;
+}
+#hero-cart h5{
+    color: rgba(255, 255, 255, 0.626);
+}
+@media screen and (max-width: 500px) {
+    #hero-cart{
+        height: 20vh;
+    }
+    #hero-cart h2{
+        color: white;
+        font-size: 35px;
+    }
+}
